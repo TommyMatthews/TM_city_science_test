@@ -2,7 +2,7 @@
 
 Hello! Please find my submission for the City Science technical test in this folder.
 
-Choice of algorithm:
+**Choice of algorithm:**
 
 I have used Dijsktra's algorithm to find the shortest path between verticies. It is worth noting that in the case of a non-unique shortest path it will only find one of them, however due to the complexity of the network this seems unlikely anyway.
 
@@ -10,13 +10,13 @@ Link to algorithm:
 https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 
-Building the project:
+**Building the project:**
 
 To run this app you need Python installed along with the numpy and pandas packages.
 For the app to work the .dat file containing the graph of interest should be in the same folder.
 
 
-Using the app:
+**Using the app:**
 
 To run the app use the following command:
 
@@ -25,7 +25,7 @@ python Shortest_route_app.py graph_data.dat source_vertex target_vertex
 where graph_data.dat is the data file for the graph of interest and source_vertex and target_vertex are the start and end of your route respectively.
 
 
-Functionality tests:
+**Functionality tests:**
 
 Test_1 contains a 5 vertex graph where the source and end vertex are connected. There is a trivial shortest route from A to E which the app finds. The graph is:
 
@@ -40,7 +40,7 @@ D E 3
 Test_2 contains the same graph but with all links to vertex E are removed. The app successfully reports that is no link if you try to find a route to E. If you try to find a route from E it will tell you that the source is not connected to the graph.
 
 
-Speed tests:
+**Speed tests:**
 
 Single_route_speed_test.py is used in the same way as the basic app and additionally returns the time taken to find the specific route. On my (fairly old) computer this finds my random sample tests running at 0.75s or under.
 
