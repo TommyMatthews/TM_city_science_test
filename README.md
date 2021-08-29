@@ -29,13 +29,13 @@ where graph_data.dat is the data file for the graph of interest and source_verte
 
 Test_1 contains a 5 vertex graph where the source and end vertex are connected. There is a trivial shortest route from A to E which the app finds. The graph is:
 
-A B 1
-A C 3
-A D 3
-B C 1
-B E 3
-C E 1
-D E 3
+A B 1  
+A C 3  
+A D 3  
+B C 1  
+B E 3  
+C E 1  
+D E 3  
 
 Test_2 contains the same graph but with all links to vertex E are removed. The app successfully reports that is no link if you try to find a route to E. If you try to find a route from E it will tell you that the source is not connected to the graph.
 
