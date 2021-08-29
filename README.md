@@ -48,4 +48,4 @@ Whole_network_speed_test.py runs the app from inside a shell over all possible v
 
 pytyon Whole_network_speed_test.py graph_data.dat
 
-This seems to return times about an order of magnitude shorter than running the app on its own, I'm not sure why this is. Usefully, this does tell us that the algorithm successfully works for all possible source target parings. Note that Whole_network_speed_test calls a version of the app with all print commands suppressed. This is App_for_speed_test.py . 
+This seems to return times about an over of magnitude shorter than running the app on its own, I'm not sure why this is. Usefully, this does tell us that the algorithm successfully works for all possible source target parings. Note that Whole_network_speed_test calls a version of the app with all print commands suppressed. This is App_for_speed_test.py . 
